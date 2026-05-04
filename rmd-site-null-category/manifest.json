@@ -1,0 +1,325 @@
+{
+  "version": 1,
+  "platform": "4.6.0",
+  "metadata": {
+    "appmode": "rmd-static",
+    "primary_rmd": "index.Rmd",
+    "primary_html": null,
+    "content_category": null,
+    "has_parameters": false
+  },
+  "packages": {
+    "bookdown": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "bookdown",
+        "Version": "0.46",
+        "NeedsCompilation": "no",
+        "Imports": "htmltools, knitr, rmarkdown, jquerylib, xfun, tinytex, yaml",
+        "Depends": "R",
+        "LinkingTo": ""
+      }
+    },
+    "yaml": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "yaml",
+        "Version": "2.3.12",
+        "NeedsCompilation": "yes",
+        "Imports": "",
+        "Depends": "",
+        "LinkingTo": ""
+      }
+    },
+    "tinytex": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "tinytex",
+        "Version": "0.59",
+        "NeedsCompilation": "no",
+        "Imports": "xfun",
+        "Depends": "",
+        "LinkingTo": ""
+      }
+    },
+    "xfun": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "xfun",
+        "Version": "0.57",
+        "NeedsCompilation": "yes",
+        "Imports": "grDevices, stats, tools",
+        "Depends": "R",
+        "LinkingTo": ""
+      }
+    },
+    "jquerylib": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "jquerylib",
+        "Version": "0.1.4",
+        "NeedsCompilation": "no",
+        "Imports": "htmltools",
+        "Depends": "",
+        "LinkingTo": ""
+      }
+    },
+    "htmltools": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "htmltools",
+        "Version": "0.5.9",
+        "NeedsCompilation": "yes",
+        "Imports": "base64enc, digest, fastmap, grDevices, rlang, utils",
+        "Depends": "R",
+        "LinkingTo": ""
+      }
+    },
+    "rlang": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "rlang",
+        "Version": "1.2.0",
+        "NeedsCompilation": "yes",
+        "Imports": "utils",
+        "Depends": "R",
+        "LinkingTo": ""
+      }
+    },
+    "fastmap": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "fastmap",
+        "Version": "1.2.0",
+        "NeedsCompilation": "yes",
+        "Imports": "",
+        "Depends": "",
+        "LinkingTo": ""
+      }
+    },
+    "digest": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "digest",
+        "Version": "0.6.39",
+        "NeedsCompilation": "yes",
+        "Imports": "utils",
+        "Depends": "R",
+        "LinkingTo": ""
+      }
+    },
+    "base64enc": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "base64enc",
+        "Version": "0.1-6",
+        "NeedsCompilation": "yes",
+        "Imports": "",
+        "Depends": "R",
+        "LinkingTo": ""
+      }
+    },
+    "rmarkdown": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "rmarkdown",
+        "Version": "2.31",
+        "NeedsCompilation": "no",
+        "Imports": "bslib, evaluate, fontawesome, htmltools, jquerylib, jsonlite, knitr, methods, tinytex, tools, utils, xfun, yaml",
+        "Depends": "R",
+        "LinkingTo": ""
+      }
+    },
+    "knitr": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "knitr",
+        "Version": "1.51",
+        "NeedsCompilation": "no",
+        "Imports": "evaluate, highr, methods, tools, xfun, yaml",
+        "Depends": "R",
+        "LinkingTo": ""
+      }
+    },
+    "highr": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "highr",
+        "Version": "0.12",
+        "NeedsCompilation": "no",
+        "Imports": "xfun",
+        "Depends": "R",
+        "LinkingTo": ""
+      }
+    },
+    "evaluate": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "evaluate",
+        "Version": "1.0.5",
+        "NeedsCompilation": "no",
+        "Imports": "",
+        "Depends": "R",
+        "LinkingTo": ""
+      }
+    },
+    "jsonlite": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "jsonlite",
+        "Version": "2.0.0",
+        "NeedsCompilation": "yes",
+        "Imports": "",
+        "Depends": "methods",
+        "LinkingTo": ""
+      }
+    },
+    "fontawesome": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "fontawesome",
+        "Version": "0.5.3",
+        "NeedsCompilation": "no",
+        "Imports": "rlang, htmltools",
+        "Depends": "R",
+        "LinkingTo": ""
+      }
+    },
+    "bslib": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "bslib",
+        "Version": "0.10.0",
+        "NeedsCompilation": "no",
+        "Imports": "base64enc, cachem, fastmap, grDevices, htmltools, jquerylib, jsonlite, lifecycle, memoise, mime, rlang, sass",
+        "Depends": "R",
+        "LinkingTo": ""
+      }
+    },
+    "sass": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "sass",
+        "Version": "0.4.10",
+        "NeedsCompilation": "yes",
+        "Imports": "fs, rlang, htmltools, R6, rappdirs",
+        "Depends": "",
+        "LinkingTo": ""
+      }
+    },
+    "rappdirs": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "rappdirs",
+        "Version": "0.3.4",
+        "NeedsCompilation": "yes",
+        "Imports": "",
+        "Depends": "R",
+        "LinkingTo": ""
+      }
+    },
+    "R6": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "R6",
+        "Version": "2.6.1",
+        "NeedsCompilation": "no",
+        "Imports": "",
+        "Depends": "R",
+        "LinkingTo": ""
+      }
+    },
+    "fs": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "fs",
+        "Version": "2.1.0",
+        "NeedsCompilation": "yes",
+        "Imports": "methods",
+        "Depends": "R",
+        "LinkingTo": ""
+      }
+    },
+    "mime": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "mime",
+        "Version": "0.13",
+        "NeedsCompilation": "yes",
+        "Imports": "tools",
+        "Depends": "",
+        "LinkingTo": ""
+      }
+    },
+    "memoise": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "memoise",
+        "Version": "2.0.1",
+        "NeedsCompilation": "no",
+        "Imports": "rlang, cachem",
+        "Depends": "",
+        "LinkingTo": ""
+      }
+    },
+    "cachem": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "cachem",
+        "Version": "1.1.0",
+        "NeedsCompilation": "yes",
+        "Imports": "rlang, fastmap",
+        "Depends": "",
+        "LinkingTo": ""
+      }
+    },
+    "lifecycle": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "lifecycle",
+        "Version": "1.0.5",
+        "NeedsCompilation": "no",
+        "Imports": "cli, rlang",
+        "Depends": "R",
+        "LinkingTo": ""
+      }
+    },
+    "cli": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "cli",
+        "Version": "3.6.6",
+        "NeedsCompilation": "yes",
+        "Imports": "utils",
+        "Depends": "R",
+        "LinkingTo": ""
+      }
+    }
+  }
+}

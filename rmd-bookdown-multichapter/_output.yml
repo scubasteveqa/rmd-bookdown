@@ -1,0 +1,2 @@
+bookdown::gitbook:
+  self_contained: true

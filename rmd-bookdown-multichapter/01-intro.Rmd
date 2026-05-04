@@ -1,0 +1,9 @@
+# Introduction
+
+This is the second chapter of the book. It exists so that `split_chapters`
+has something non-trivial to split — a single-chapter bookdown can mask
+issues that only surface once there is more than one output file to place.
+
+## A subsection
+
+Some prose to make sure pandoc has structure to render.

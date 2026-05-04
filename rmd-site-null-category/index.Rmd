@@ -1,0 +1,13 @@
+---
+title: "Site Null-Category Regression Fixture"
+---
+
+# Welcome
+
+This is the home page of an `rmarkdown::render_site` project.
+
+The manifest sets `content_category: null` (rather than `"site"`), so prior
+to the fix in vivid-blender#1863 the doc-render branch ran instead of the
+site branch. The Go-side change now also looks for `_site.yml` in the
+content directory and routes through the site path when found, so this
+content publishes correctly.
