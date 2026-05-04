@@ -1,7 +1,7 @@
-name: "my-website"
+name: "rmd-site-null-category"
 output_dir: whatever-custom-dir
 navbar:
-  title: "My Website"
+  title: "rmd-site (null category)"
   left:
     - text: "Home"
       href: index.html
