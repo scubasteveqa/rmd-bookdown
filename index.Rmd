@@ -1,0 +1,16 @@
+---
+title: "Tiny Bookdown Regression Fixture"
+site: bookdown::bookdown_site
+---
+
+# Welcome
+
+Hello from a single-chapter bookdown.
+
+This fixture exists to exercise the path where `rmarkdown::render` is invoked
+on a bookdown project (because `content_category` is null in the manifest, so
+the doc-render branch runs instead of the site branch). bookdown::gitbook's
+post-processor then writes the chapter HTML to the working directory rather
+than the requested `output_dir`. Without the fix in
+`pkg/embed/R/rmarkdown_render.R` that reports `RenderDirectory` to the Go
+side, `findOutputFileName` fails with "Unable to determine primary file".
