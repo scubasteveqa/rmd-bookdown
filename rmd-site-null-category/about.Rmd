@@ -1,7 +1,0 @@
----
-title: "About"
----
-
-A second page so the site has more than just `index.html`. If publishing
-succeeds and you can navigate to `about.html` from the navbar, the
-`_site.yml`-marker code path is doing its job.
