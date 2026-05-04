@@ -1,0 +1,8 @@
+# Methods
+
+A third chapter, ensuring at least three split outputs (`index.html`,
+`introduction.html`, `methods.html` or similar — the exact filenames depend
+on heading-derived slugs).
+
+If publishing produces a bundle containing all three chapter HTML files
+plus the gitbook navigation assets, the fix is working.
